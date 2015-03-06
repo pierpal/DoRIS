@@ -1,0 +1,3 @@
+current 50000 10000 300000
+generation 34 2 46
+ancestral 5000 1000 15000
