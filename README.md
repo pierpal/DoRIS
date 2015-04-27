@@ -57,6 +57,18 @@ One bin per line.
 
 To compute these histograms you can run the included script "getHistograms.sh", after modifying the parameters as indicated. Remember to change the "COL" field in the script to match the column where the length of each IBD segment is reported, if needed (e.g. this should be 11 for GERMLINE output http://www.cs.columbia.edu/~gusev/germline/). The default lenfth intervals of 1 cM may be changed.
 
+The grid files have format
+
+    ModelParameter  fromValue   interval    toValue
+One parameters per line. The demographic models are depicted in the references. The models have the following parameters (also see error messages if any)
+
+    Expansion   Current, Generation, Ancestral.
+    DoubleExpansion   Current, Generation1, Ancestral1, Generation2, Ancestral2.
+    FounderExpansion    Current, Generation, Ancestral1, Ancestral2.
+    ExpansionFounderExpansion   Current, Generation, Ancestral1, Ancestral2, Generation2, Ancestral3.
+    SplitExpConstAsymMig    pop1current, pop1ancestral, pop2current, pop2ancestral, generation, ancestraltot, m12, m21.
+    SplitExpConstSymMig pop1current, pop1ancestral, pop2current, pop2ancestral, generation, ancestraltot, m.
+
 ### Dependencies
 
 uses the Apache Math library (http://commons.apache.org/proper/commons-math/) to compute some probabilities.
