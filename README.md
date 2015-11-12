@@ -2,7 +2,7 @@
 
 Optimizes the parameters of a demographic model based on identical-by-descent (IBD) segment sharing. See references for details.
 
-##### NOTE: a new version of the software will be posted soon. Get in touch if you'd like to use a preliminary version.
+NOTE: code is gradware. I hope to post a new version soon. Get in touch if you'd like to use a preliminary version.
 
 ### Usage
 
