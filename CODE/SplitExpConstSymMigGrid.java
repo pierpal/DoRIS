@@ -116,7 +116,7 @@ public class SplitExpConstSymMigGrid extends Grid {
                 && state[3] == Math.floor((pop2AncestralTo - pop2AncestralFrom) / pop2AncestralInterval)
                 && state[4] == Math.floor((ancestralTotTo - ancestralTotFrom) / ancestralTotInterval)
                 && state[5] == Math.floor((generationTo - generationFrom) / generationInterval)
-                && state[7] == Math.floor((mTo - mFrom) / mInterval));
+                && state[6] == Math.floor((mTo - mFrom) / mInterval));
     }
 
     double[] nextSet() {
